@@ -1,0 +1,1 @@
+Recordá que en Gobstones no tenemos reemplazar, pero sí `Sacar` y `Poner`. :wink:

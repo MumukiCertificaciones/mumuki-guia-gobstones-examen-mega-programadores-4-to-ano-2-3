@@ -1,0 +1,1 @@
+Recorda la función `longitud` que recibe una lista y me dice cuántos elementos tiene. :wink:

@@ -1,0 +1,13 @@
+describe("mitadDelTriple", function() {
+  it("mitadDelTriple de 6 es 9", function() {
+    assert.equal(mitadDelTriple(6), 9);
+  });
+  
+  it("mitadDelTriple de 8 es 12", function() {
+    assert.equal(mitadDelTriple(8), 12);
+  });
+  
+  it("mitadDelTriple de 0 es 0", function() {
+    assert.equal(mitadDelTriple(0), 0);
+  });
+})

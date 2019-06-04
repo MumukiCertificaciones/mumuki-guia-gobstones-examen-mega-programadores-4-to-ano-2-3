@@ -1,0 +1,17 @@
+describe("", function() {
+  it("La lista [6,7,8] tiene más de 2 elementos", function() {
+    assert(tieneSuficientesElementos([6,7,8], 2));
+  });
+  
+  it("La lista [6,7,8] no tiene más de 3 elementos", function() {
+    assert(!tieneSuficientesElementos([6,7,8], 3));
+  });
+  
+  it("La lista [] no tiene más de 1 elemento", function() {
+    assert(!tieneSuficientesElementos([], 0));
+  });
+  
+  it("La lista ['hola', 'chau', 'si', 'no'] tiene más de 3 elementos", function() {
+    assert(tieneSuficientesElementos(['hola', 'chau', 'si', 'no'], 3));
+  });
+})

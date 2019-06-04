@@ -1,0 +1,21 @@
+describe("", function() {
+  it("una persona de 12 anios no es adolescente", function() {
+    assert(!esAdolescente(12));
+  });
+  
+  it("una persona de 13 anios es adolescente", function() {
+    assert(esAdolescente(13));
+  });
+  
+  it("una persona de 15 anios es adolescente", function() {
+    assert(esAdolescente(15));
+  });
+  
+  it("una persona de 19 anios es adolescente", function() {
+    assert(esAdolescente(19));
+  });
+  
+  it("una persona de 20 anios no es adolescente", function() {
+    assert(!esAdolescente(20));
+  });
+})
