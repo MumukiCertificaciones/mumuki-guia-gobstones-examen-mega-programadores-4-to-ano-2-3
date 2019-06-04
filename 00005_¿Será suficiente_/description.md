@@ -5,7 +5,7 @@ Para finalizar nuestra parte de JavaScript hagamos una función más, llamada `t
 true //Porque la lista tiene más de 2 elementos.
 
 ム tieneSuficientesElementos(["charly", "pedro", "david", "oscar"], 6)
-true //Porque la lista tiene menos de 6 elementos.
+false //Porque la lista tiene menos de 6 elementos.
 ```
 
 > Definí la función `tieneSuficientesElementos`. 
